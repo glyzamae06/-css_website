@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Website</title>
+        <!--link sa font awesome para sa icons icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <!--header / navbar-->
+        <header>
+            <nav class="navbar section-content">
+               <a href="#" class="nav-logo">
+               <h2 class="logo-text">COMPUTER SYSTEMS SERVICING</h2>
+               </a> 
+               <ul class="nav-menu">
+                 <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#About" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Products" class="nav-link">Accessories</a>
+                </li>
+                <li class="nav-item">
+                   <a href="#instructors" class="nav-link">Instructors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+               </ul>
+               <button id="menu-open-button" class="fas fa-bars"></button>
+            </nav>    
+        </header>
+
+        <main>
+        <!-- hero section -->
+<section class="hero-section">
+    <!-- background image -->
+    <img src="bg.png" alt="" class="hero-bg">
+
+    <div class="section-content">
+        <div class="hero-details">
+            <h2 class="title">CSS STRAND</h2>
+            <h3 class="subtitle">
+                Building a strong foundation in computer systems servicing and information technology!
+            </h3>
+            <p class="description">
+                Welcome to the Computer Systems Servicing strand, where students develop technical expertise through hands-on training, industry-based standards, and real-world applications.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+        <!--ang aking about section-->
+            <section class="about-section" id="About">
+                <div class="section-content">
+                    <div class="about-image-wrapper">
+                        <img src="about imgs/about-img.png" alt="about" class="about-image">
+                    </div>
+                    <div class="about-details">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="text">The Computer Systems Servicing (CSS) Strand of Calaca Senior High School develops students’ 
+                            skills in computer hardware, software installation, networking, and basic troubleshooting. Through hands-on training, students gain practical knowledge aligned with industry standards, preparing them for TESDA certification, IT-related careers, or further studies in technology.
+                        </p>
+                        <div class="social-link-list">
+                         <a href="https://www.facebook.com/DepEdTayoCSHS342205" 
+                         class="social-link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/calaca-senior-high-school/" 
+                        class="social-link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/YOURUSERNAME" 
+                        class="social-link" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--Accessories section-->
+        <section class="product-section" id="Products">
+            <h2 class="section-title">Accessories</h2>
+            <div class="section-content">
+                <ul class="product-list">
+                    <li class="product-item">
+                        <img src="accessories/SystemUnit.png" alt="System Unit" 
+                        class="product-image">
+                        <h3 class="name">System Unit</h3>
+                        <p>The main box of the computer that holds and protects all internal components.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/monitor.png" alt="Monitor" 
+                        class="product-image">
+                        <h3 class="name">Monitor</h3>
+                        <p>The screen that displays text, images, and videos from the computer.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/mouse.png" alt="Mouse"    
+                        class="product-image">  
+                        <h3 class="name">Mouse</h3>
+                        <p class="text">An input device used to point, click, and navigate on the screen.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/keyboard.png" alt="Keyboard" 
+                        class="product-image">
+                        <h3 class="name">Keyboard</h3>
+                        <p> An input device used to type text and commands.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/avr.png" alt="avr" 
+                        class="product-image">
+                        <h3 class="name">Automatic Voltage Regulator</h3>
+                        <p class="text">Regulates voltage to protect the computer from power fluctuations.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/powersupply.png" alt="powersupply" 
+                        class="product-image">
+                        <h3 class="name">Powersupply</h3>
+                        <p class="text"> Converts electricity from the outlet into power usable by computer parts.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/hdd.png" alt="hdd" 
+                        class="product-image">
+                        <h3 class="name">HDD</h3>
+                        <p class="text">A traditional storage device that uses spinning disks to store data.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/odd.png" alt="odd" 
+                        class="product-image">
+                        <h3 class="name">ODD</h3>
+                        <p class="text"> A drive used to read or write CDs and DVDs.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/ram.png" alt="ram" 
+                        class="product-image">
+                        <h3 class="name">RAM (Random Access Memory)</h3>
+                        <p>Temporary memory that stores data the computer is currently using for faster access.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/rom.png" alt="V2000" 
+                        class="product-image">
+                        <h3 class="name">ROM (Read-Only Memory)</h3>
+                        <p>A permanent memory that stores essential instructions needed to start the computer; its contents are not easily changed and remain even when the power is off.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/cpu.png" alt="VFC1000 Series" 
+                        class="product-image">
+                        <h3 class="name">CPU (Central Processing Unit)</h3>
+                        <P>The main processor of the computer that executes instructions, performs calculations, and controls overall system operations.</P>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/cpufan.png" alt="VQ2000 Series" 
+                        class="product-image">
+                        <h3 class="name">Cooling Fan</h3>
+                        <p>Keeps the computer components cool to prevent overheating.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/motherboard.png" alt="VS123W-SL" 
+                        class="product-image">
+                        <h3 class="name">Motherboard</h3>
+                        <p>The main circuit board where all computer parts are connected and communicate.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/LANcard-removebg-preview.png" alt="VS123W-SLVS220W-USA" 
+                        class="product-image">
+                        <h3 class="name">LAN Card (Network Interface Card)</h3>
+                        <p>A hardware component that allows a computer to connect to a local network or the internet using a LAN cable.</p>
+                    </li>
+                    <li class="product-item">
+                        <img src="accessories/graphicscard-removebg-preview.png" alt="VSL215 Series" 
+                        class="product-image">
+                        <h3 class="name">Graphics Card (Video Card / GPU)</h3>
+                        <p>A hardware component that processes and renders images, videos, and graphics, then sends them to the monitor for display.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- instructors Section -->
+        <section class="instructors-section" id="instructors">
+        <h2 class="section-title">Instructors</h2>
+
+        <div class="instructors-container">
+
+            <div class="instructor-card">
+            <img src="instructors/1.png" class="user-image">
+            <h3 class="name">KRISTINE JOY A. DE LOS REYES</h3>
+            <p class="role">CSS Instructor</p>
+            </div>
+
+            <div class="instructor-card">
+            <img src="instructors/2.png" class="user-image">
+            <h3 class="name">MARIA LILETH VILLALOBOS OXIDA</h3>
+            <p class="role">CSS Instructor</p>
+            </div>
+
+        </div>
+</section>
+
+
+        <!--gallery section-->
+        <section class="gallery-section" id="Gallery">
+            <h2 class="section-title">Gallery</h2>
+             <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery/1.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/2.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/3.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/4.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/5.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/6.png" alt="Gallery" class="gallery-image">
+                     </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section class="contact-section" id="Contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Madalunot, Calaca, Batangas, Calaca, Philippines, 4212</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>calacaseniorhighschool2023@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0917 184 4993</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday – Friday: 6:30 AM – 5:30 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.calacashs.com</p>
+                    </li>
+                </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="your name" class="form-input" 
+                    required>
+                    <input type="email" placeholder="your email" class="form-input"
+                     required>
+                     <textarea placeholder="your message" class="form-input"
+                     required></textarea>
+                     <button class="submit-button">submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!--footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Calaca Senior High School. All rights reserved.</p>
+
+               <div class="social-link-list">
+                         <a href="https://www.facebook.com/DepEdTayoCSHS342205" 
+                         class="social-link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/calaca-senior-high-school/" 
+                        class="social-link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/YOURUSERNAME" 
+                        class="social-link" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+        </main>
+
+        <!--linking swiper script-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        
+        <!--linking custom script-->
+        <script src="script.js"></script>
+    </body>
+    </html>
