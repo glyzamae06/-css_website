@@ -7,10 +7,13 @@
         <!--link sa font awesome para sa icons icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>
     <body>
+        <div id="successMessage" class="success-message">
+             Message sent successfully!
+        </div>
+
         <!--header / navbar-->
         <header>
             <nav class="navbar section-content">
@@ -26,16 +29,19 @@
                     <a href="#About" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Products" class="nav-link">Accessories</a>
+                    <a href="#Gallery" class="nav-link">Gallery</a>
                 </li>
                 <li class="nav-item">
                    <a href="#instructors" class="nav-link">Instructors</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Gallery" class="nav-link">Gallery</a>
+                    <a href="#Products" class="nav-link">Accessories</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Contact" class="nav-link">Contact</a>
+                    <a href="#tools" class="nav-link">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact Us</a>
                 </li>
                </ul>
                <button id="menu-open-button" class="fas fa-bars"></button>
@@ -43,7 +49,7 @@
         </header>
 
         <main>
-        <!-- hero section -->
+        <!-- front page section -->
 <section class="hero-section">
     <!-- background image -->
     <img src="bg.png" alt="" class="hero-bg">
@@ -64,32 +70,106 @@
 
         <!--ang aking about section-->
             <section class="about-section" id="About">
-                <div class="section-content">
-                    <div class="about-image-wrapper">
-                        <img src="about imgs/about-img.png" alt="about" class="about-image">
-                    </div>
-                    <div class="about-details">
-                        <h2 class="section-title">About Us</h2>
-                        <p class="text">The Computer Systems Servicing (CSS) Strand of Calaca Senior High School develops students’ 
-                            skills in computer hardware, software installation, networking, and basic troubleshooting. Through hands-on training, students gain practical knowledge aligned with industry standards, preparing them for TESDA certification, IT-related careers, or further studies in technology.
-                        </p>
-                        <div class="social-link-list">
-                         <a href="https://www.facebook.com/DepEdTayoCSHS342205" 
-                         class="social-link" target="_blank">
-                        <i class="fa-brands fa-facebook"></i>
-                        </a>
-                        <a href="https://www.instagram.com/calaca-senior-high-school/" 
-                        class="social-link" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://twitter.com/YOURUSERNAME" 
-                        class="social-link" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-            </section>
+    <div class="section-content">
+        <div class="about-image-wrapper">
+            <img src="about imgs/about-img.png" alt="about" class="about-image">
+        </div>
+
+        <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+
+            <p class="text">
+                The Computer Systems Servicing (CSS) Strand of Calaca Senior High School develops students’ 
+                skills in computer hardware, software installation, networking, and basic troubleshooting. 
+                Through hands-on training, students gain practical knowledge aligned with industry standards, 
+                preparing them for TESDA certification, IT-related careers, or further studies in technology.
+            </p>
+
+            <p class="text">
+                Students in the CSS strand learn how to assemble and disassemble computers, install operating 
+                systems and applications, configure networks, and maintain computer systems. They also practice 
+                proper safety procedures, cable management, and the use of essential computer servicing tools.
+            </p>
+
+            <p class="text">
+                The program focuses on real-world tasks such as setting up computer laboratories, creating LAN 
+                connections, performing preventive maintenance, and diagnosing hardware and software problems. 
+                These experiences help students become confident and job-ready in the field of information technology.
+            </p>
+
+            <p class="text">
+                By the end of the strand, students are equipped with technical skills, teamwork, and problem-solving 
+                abilities that can help them pursue careers such as computer technician, IT support staff, network 
+                installer, or continue to college in IT, Computer Engineering, or related courses.
+            </p>
+
+            <div class="social-link-list">
+                <a href="https://www.facebook.com/DepEdTayoCSHS342205" 
+                class="social-link" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/calaca-senior-high-school/" 
+                class="social-link" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://twitter.com/Ycalaca-senior-high-school" 
+                class="social-link" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!--gallery section-->
+        <section class="gallery-section" id="Gallery">
+            <h2 class="section-title">Gallery</h2>
+             <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery/1.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/2.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/3.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/4.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/5.png" alt="Gallery" class="gallery-image">
+                     </li>
+                     <li class="gallery-item">
+                        <img src="gallery/6.png" alt="Gallery" class="gallery-image">
+                     </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- instructors Section -->
+        <section class="instructors-section" id="instructors">
+        <h2 class="section-title">Instructors</h2>
+
+        <div class="instructors-container">
+
+            <div class="instructor-card">
+            <img src="instructors/1.png" class="user-image">
+            <h3 class="name">KRISTINE JOY A. DE LOS REYES</h3>
+            <p class="role">CSS Instructor</p>
+            </div>
+
+            <div class="instructor-card">
+            <img src="instructors/2.png" class="user-image">
+            <h3 class="name">MARIA LILETH VILLALOBOS OXIDA</h3>
+            <p class="role">CSS Instructor</p>
+            </div>
+
+        </div>
+</section>
 
         <!--Accessories section-->
         <section class="product-section" id="Products">
@@ -121,10 +201,10 @@
                         <p> An input device used to type text and commands.</p>
                     </li>
                     <li class="product-item">
-                        <img src="accessories/avr.png" alt="avr" 
+                        <img src="accessories/lancable.png" alt="avr" 
                         class="product-image">
-                        <h3 class="name">Automatic Voltage Regulator</h3>
-                        <p class="text">Regulates voltage to protect the computer from power fluctuations.</p>
+                        <h3 class="name">LAN Cable</h3>
+                        <p class="text">A cable that connects computers and other devices to a network so they can communicate and access the internet.</p>
                     </li>
                     <li class="product-item">
                         <img src="accessories/powersupply.png" alt="powersupply" 
@@ -190,54 +270,76 @@
             </div>
         </section>
 
-        <!-- instructors Section -->
-        <section class="instructors-section" id="instructors">
-        <h2 class="section-title">Instructors</h2>
 
-        <div class="instructors-container">
+        <!--tools section-->
+        <section class="tools-section" id="tools">
+    <h2 class="section-title">Tools</h2>
+    <div class="section-content">
+        <ul class="product-list">
 
-            <div class="instructor-card">
-            <img src="instructors/1.png" class="user-image">
-            <h3 class="name">KRISTINE JOY A. DE LOS REYES</h3>
-            <p class="role">CSS Instructor</p>
-            </div>
+            <li class="product-item">
+                <img src="tools/screwdriver.png" alt="Screwdriver" class="product-image">
+                <h3 class="name">Screwdriver</h3>
+                <p>Used to tighten or loosen screws when assembling or repairing computer parts.</p>
+            </li>
 
-            <div class="instructor-card">
-            <img src="instructors/2.png" class="user-image">
-            <h3 class="name">MARIA LILETH VILLALOBOS OXIDA</h3>
-            <p class="role">CSS Instructor</p>
-            </div>
+            <li class="product-item">
+                <img src="tools/antistatic.png" alt="Anti Static Wrist Strap" class="product-image">
+                <h3 class="name">Anti-Static Wrist Strap</h3>
+                <p>Prevents static electricity from damaging sensitive computer components.</p>
+            </li>
 
-        </div>
+            <li class="product-item">
+                <img src="tools/longnose.png" alt="Long Nose Pliers" class="product-image">
+                <h3 class="name">Long Nose Pliers</h3>
+                <p>Used for gripping, bending, and handling small wires or components.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/crimping.png" alt="Crimping Tool" class="product-image">
+                <h3 class="name">Crimping Tool</h3>
+                <p>Used to attach RJ45 connectors to LAN cables.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/tester.png" alt="LAN Tester" class="product-image">
+                <h3 class="name">LAN Cable Tester</h3>
+                <p>Checks if a LAN cable is properly connected and working.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/punchdown.png" alt="Punch Down Tool" class="product-image">
+                <h3 class="name">Punch Down Tool</h3>
+                <p>Used to insert and secure wires into network jacks and patch panels.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/wirestripper.png" alt="Wire Stripper" class="product-image">
+                <h3 class="name">Wire Stripper</h3>
+                <p>Removes the outer insulation of cables without damaging the wires inside.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/multimeter.png" alt="Multimeter" class="product-image">
+                <h3 class="name">Multimeter</h3>
+                <p>Measures voltage, resistance, and current for troubleshooting hardware.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/brush.png" alt="Cleaning Brush" class="product-image">
+                <h3 class="name">Cleaning Brush</h3>
+                <p>Used to remove dust from computer components safely.</p>
+            </li>
+
+            <li class="product-item">
+                <img src="tools/flashdrive.png" alt="Flash Drive" class="product-image">
+                <h3 class="name">Flash Drive</h3>
+                <p>A portable storage device used to save, transfer, and back up files between computers.</p>
+            </li>
+
+        </ul>
+    </div>
 </section>
-
-
-        <!--gallery section-->
-        <section class="gallery-section" id="Gallery">
-            <h2 class="section-title">Gallery</h2>
-             <div class="section-content">
-                <ul class="gallery-list">
-                    <li class="gallery-item">
-                        <img src="gallery/1.png" alt="Gallery" class="gallery-image">
-                     </li>
-                     <li class="gallery-item">
-                        <img src="gallery/2.png" alt="Gallery" class="gallery-image">
-                     </li>
-                     <li class="gallery-item">
-                        <img src="gallery/3.png" alt="Gallery" class="gallery-image">
-                     </li>
-                     <li class="gallery-item">
-                        <img src="gallery/4.png" alt="Gallery" class="gallery-image">
-                     </li>
-                     <li class="gallery-item">
-                        <img src="gallery/5.png" alt="Gallery" class="gallery-image">
-                     </li>
-                     <li class="gallery-item">
-                        <img src="gallery/6.png" alt="Gallery" class="gallery-image">
-                     </li>
-                </ul>
-            </div>
-        </section>
 
         <!--contact section-->
         <section class="contact-section" id="Contact">
@@ -269,14 +371,15 @@
                         <p>www.calacashs.com</p>
                     </li>
                 </ul>
-                <form action="#" class="contact-form">
-                    <input type="text" placeholder="your name" class="form-input" 
-                    required>
-                    <input type="email" placeholder="your email" class="form-input"
-                     required>
-                     <textarea placeholder="your message" class="form-input"
-                     required></textarea>
-                     <button class="submit-button">submit</button>
+                <form action="https://formsubmit.co/glyzamaeloyola@gmail.com" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your name" class="form-input" required>
+                    <input type="email" name="email" placeholder="Your email" class="form-input" required>
+                    <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
+
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/?sent=1">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <button type="submit" class="submit-button">Send</button>
                 </form>
             </div>
         </section>
@@ -303,11 +406,6 @@
                 </div>
         </footer>
         </main>
-
-        <!--linking swiper script-->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-        
-        <!--linking custom script-->
-        <script src="script.js"></script>
+        <script src="js/contact.js"></script>
     </body>
     </html>
