@@ -368,28 +368,15 @@
                         <p>www.calacashs.com</p>
                     </li>
                 </ul>
-                 <form action="https://formsubmit.co/calacashs.css@gmail.com" method="POST" class="contact-form">
-                        <input type="text" name="name" placeholder="Your name" class="form-input" required>
-                        <input type="email" name="email" placeholder="Your email" class="form-input" required>
-                        <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
-
-                        <!-- show sender name + email in subject -->
-                        <input type="hidden" name="_subject" value="New message from website">
-
-                        <!-- makes email look clean -->
-                        <input type="hidden" name="_template" value="table">
-
-                        <!-- reply goes directly to sender -->
-                        <input type="hidden" name="_replyto" value="%email%">
-
-                        <!-- return to homepage -->
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/?sent=1">
-
-                        <input type="hidden" name="_captcha" value="false">
-
-                        <button type="submit" class="submit-button">Send</button>
-                </form>
-
+                    <form action="https://formsubmit.co/calacashs.css@gmail.com" method="POST" class="contact-form"> 
+                    <input type="text" name="name" placeholder="Your name" class="form-input" required> 
+                    <input type="email" name="email" placeholder="Your email" class="form-input" required>
+                    <textarea name="message" placeholder="Your message" class="form-input" required></textarea> <!-- show sender name + email in subject --> 
+                    <input type="hidden" name="_subject" value="New message from website"> <!-- makes email look clean --> 
+                    <input type="hidden" name="_template" value="table"> <!-- reply goes directly to sender --> 
+                    <input type="hidden" name="_replyto" value="%email%"> <!-- return to homepage --> 
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/?sent=1"> 
+                    <input type="hidden" name="_captcha" value="false"> <button type="submit" class="submit-button">Send</button> </form>
             </div>
         </section>
 
