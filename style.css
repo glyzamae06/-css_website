@@ -176,11 +176,11 @@ img {
     left: 50%;
     transform: translateX(-50%) translateY(-20px);
 
-    background: rgba(232, 235, 233, 0.15); /* transparent green */
+    background: rgba(232, 235, 233, 0.15); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
-    border: 1px solid rgba(125, 128, 126, 0.35);
+    border: 1px solid rgba(105, 228, 146, 0.35);
     color: #c6e9d3;
 
     padding: 14px 22px;
@@ -189,7 +189,7 @@ img {
 
     opacity: 0;
     pointer-events: none;
-    transition: 0.4s ease;
+    transition: 0.7s ease;
     z-index: 9999;
 }
 

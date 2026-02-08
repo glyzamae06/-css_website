@@ -23,9 +23,6 @@
                <ul class="nav-menu">
                  <button id="menu-close-button" class="fas fa-times"></button>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
                     <a href="#About" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
@@ -364,23 +361,35 @@
                     </li>
                     <li class="contact-info">
                         <i class="fa-regular fa-clock"></i>
-                        <p>Sunday: closed</p>
+                        <p>Saturday-Sunday: closed</p>
                     </li>
                     <li class="contact-info">
                         <i class="fa-solid fa-globe"></i>
                         <p>www.calacashs.com</p>
                     </li>
                 </ul>
-                <form action="https://formsubmit.co/glyzamaeloyola@gmail.com" method="POST" class="contact-form">
-                    <input type="text" name="name" placeholder="Your name" class="form-input" required>
-                    <input type="email" name="email" placeholder="Your email" class="form-input" required>
-                    <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
+                 <form action="https://formsubmit.co/calacashs.css@gmail.com" method="POST" class="contact-form">
+                        <input type="text" name="name" placeholder="Your name" class="form-input" required>
+                        <input type="email" name="email" placeholder="Your email" class="form-input" required>
+                        <textarea name="message" placeholder="Your message" class="form-input" required></textarea>
 
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/?sent=1">
-                    <input type="hidden" name="_captcha" value="false">
+                        <!-- show sender name + email in subject -->
+                        <input type="hidden" name="_subject" value="New message from website">
 
-                    <button type="submit" class="submit-button">Send</button>
+                        <!-- makes email look clean -->
+                        <input type="hidden" name="_template" value="table">
+
+                        <!-- reply goes directly to sender -->
+                        <input type="hidden" name="_replyto" value="%email%">
+
+                        <!-- return to homepage -->
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/?sent=1">
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <button type="submit" class="submit-button">Send</button>
                 </form>
+
             </div>
         </section>
 
@@ -406,6 +415,7 @@
                 </div>
         </footer>
         </main>
-        <script src="js/contact.js"></script>
-    </body>
+        <script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
     </html>

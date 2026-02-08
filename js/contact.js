@@ -8,5 +8,8 @@ if (params.get("sent") === "1") {
         successBox.classList.remove("show");
     }, 4000);
 
+    // remove ?sent=1 from URL
     window.history.replaceState({}, document.title, window.location.pathname);
 }
+
+
